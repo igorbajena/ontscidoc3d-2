@@ -18,7 +18,7 @@
     <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
     <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
     <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
-    <Import>http://erlangen-crm.org/211015/</Import>
+    <Import>http://www.cidoc-crm.org/cidoc-crm/</Import>
     <Declaration>
         <Class IRI="osd_13a_Topic_Assignment"/>
     </Declaration>
@@ -170,226 +170,226 @@
         <DataProperty IRI="P82b_has_latest_end"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P11_had_participant"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130i_features_are_also_found_on"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://erlangen-crm.org/170309/P82_at_some_time_within"/>
+        <DataProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130_shows_features_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P12_occurred_in_the_presence_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P12i_was_present_at"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="osd_13a_Topic_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13b_Context_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13c_Location_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13d_Role_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13e_Date_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13f_Documentation_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13g_Alternative_Title_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13h_Right_Status_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_13j_Adressbook_Assignment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_22a_Object"/>
-        <Class IRI="http://erlangen-crm.org/211015/E22_Human-Made_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_24a_Physical_Source"/>
-        <Class IRI="http://erlangen-crm.org/211015/E24_Physical_Human-Made_Thing"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_30a_Copy_Right"/>
-        <Class IRI="http://erlangen-crm.org/211015/E30_Right"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E30_Right"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31a_Annotation"/>
-        <Class IRI="http://erlangen-crm.org/211015/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31b_Source"/>
-        <Class IRI="http://erlangen-crm.org/211015/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31b_Source"/>
-        <Class IRI="http://erlangen-crm.org/211015/E71_Human-Made_Thing"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31c_Comment"/>
-        <Class IRI="http://erlangen-crm.org/211015/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31d_Note"/>
-        <Class IRI="http://erlangen-crm.org/211015/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31e_Article"/>
-        <Class IRI="http://erlangen-crm.org/211015/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_31e_Article"/>
-        <Class IRI="http://erlangen-crm.org/211015/E71_Human-Made_Thing"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_35c_Source_Subtitle"/>
-        <Class IRI="http://erlangen-crm.org/211015/E35_Title"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_35d_Object_Subtitle"/>
-        <Class IRI="http://erlangen-crm.org/211015/E35_Title"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_35e_Object_Alternative_Title"/>
-        <Class IRI="http://erlangen-crm.org/211015/E35_Title"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_42a_Authority_Document_Identifier"/>
-        <Class IRI="http://erlangen-crm.org/211015/E42_Identifier"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_42g_Language_Identifier"/>
-        <Class IRI="http://erlangen-crm.org/211015/E42_Identifier"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_53a_Place"/>
-        <Class IRI="http://erlangen-crm.org/211015/E53_Place"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_53b_Location"/>
-        <Class IRI="http://erlangen-crm.org/211015/E53_Place"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_53c_Source_Section"/>
-        <Class IRI="http://erlangen-crm.org/211015/E53_Place"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55b_Broader_Type"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55j_Certainty_Value_Type"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55m_Editing_Status"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55n_Right_Status"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55o_Religion"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55p_Technique"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_55q_Detail_Level_Type"/>
-        <Class IRI="http://erlangen-crm.org/211015/E55_Type"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_5a_Historical_Event"/>
-        <Class IRI="http://erlangen-crm.org/211015/E5_Event"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_73a_3D_Reconstruction"/>
-        <Class IRI="http://erlangen-crm.org/211015/E73_Information_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_73b_3D_Reconstruction_Version"/>
-        <Class IRI="http://erlangen-crm.org/211015/E73_Information_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_73c_3D_Reconstruction_Variation"/>
-        <Class IRI="http://erlangen-crm.org/211015/E73_Information_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_7a_Research_Activity"/>
-        <Class IRI="http://erlangen-crm.org/211015/E7_Activity"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_7b_Membership"/>
-        <Class IRI="http://erlangen-crm.org/211015/E7_Activity"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_7c_Documentation"/>
-        <Class IRI="http://erlangen-crm.org/211015/E7_Activity"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_89a_Topic"/>
-        <Class IRI="http://erlangen-crm.org/211015/E89_Propositional_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="osd_89b_Context"/>
-        <Class IRI="http://erlangen-crm.org/211015/E89_Propositional_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P11_had_participant"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"/>
         <ObjectProperty IRI="P12.1_created"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P12.1_created"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P12_occurred_in_the_presence_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P12.1i_was_created_by"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P12i_was_present_at"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P130.1_is_similar_to"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130_shows_features_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P130.1i_similar_to"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130i_features_are_also_found_on"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P130.2_is_equal_to"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130_shows_features_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="P130.2i_is_equal_to"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P130i_features_are_also_found_on"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#inverse_of_P12_occurred_in_the_presence_of_1"/>
-        <ObjectProperty IRI="http://erlangen-crm.org/170309/P12i_was_present_at"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="P12.1_created"/>
@@ -405,15 +405,15 @@
     </InverseObjectProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="P82a_has_earliest_start"/>
-        <DataProperty IRI="http://erlangen-crm.org/170309/P82_at_some_time_within"/>
+        <DataProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="P82b_has_latest_end"/>
-        <DataProperty IRI="http://erlangen-crm.org/170309/P82_at_some_time_within"/>
+        <DataProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within"/>
     </SubDataPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://erlangen-crm.org/170309/E57_Material</IRI>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E57_Material</IRI>
         <Literal xml:lang="en">Scope note: This class is a specialization of E55 Type and comprises the 
     concepts of materials. Instances of E57 Material may denote properties of 
     matter before its use, during its use, and as incorporated in an object, 
@@ -680,3 +680,4 @@ Examples:
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
