@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.ontscidoc3d.hs-mainz.de/ontology/"
+     xml:base="https://www.ontscidoc3d.hs-mainz.de/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/">
+        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P11_had_participant -->
+
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11_had_participant">
+        <rdfs:subPropertyOf rdf:resource="https://www.ontscidoc3d.hs-mainz.de/ontology/P12.1_created"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P12.1_created -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P12.1_created">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P12.1i_was_created_by -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P12.1i_was_created_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P130.1_is_similar_to -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P130.1_is_similar_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P130.1i_similar_to -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P130.1i_similar_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P130.2_is_equal_to -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P130.2_is_equal_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P130.2i_is_equal_to -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P130.2i_is_equal_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/#inverse_of_P12_occurred_in_the_presence_of_1 -->
+
+    <owl:ObjectProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/#inverse_of_P12_occurred_in_the_presence_of_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P82a_has_earliest_start -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P82a_has_earliest_start">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/P82b_has_latest_end -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/P82b_has_latest_end">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13a_Topic_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13a_Topic_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13b_Context_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13b_Context_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13c_Location_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13c_Location_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13d_Role_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13d_Role_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13e_Date_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13e_Date_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13f_Documentation_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13f_Documentation_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13g_Alternative_Title_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13g_Alternative_Title_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13h_Right_Status_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13h_Right_Status_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13j_Adressbook_Assignment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_13j_Adressbook_Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_22a_Object -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_22a_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_24a_Physical_Source -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_24a_Physical_Source">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_30a_Copy_Right -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_30a_Copy_Right">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E30_Right"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31a_Annotation -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31a_Annotation">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31b_Source -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31b_Source">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31c_Comment -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31c_Comment">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31d_Note -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31d_Note">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31e_Article -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_31e_Article">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_35c_Subtitle -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_35c_Subtitle">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_35e_Alternative_Title -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_35e_Alternative_Title">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_52a_Timespan -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_52a_Timespan">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_52b_Editorial_Timespan -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_52b_Editorial_Timespan">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53a_Place -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53a_Place">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53b_Location -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53b_Location">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53c_Source_Section -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_53c_Source_Section">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55b_Broader_Type -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55b_Broader_Type">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55d_Object_Type -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55d_Object_Type">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55j_Level_of_Uncertainty -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55j_Level_of_Uncertainty">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55m_Editing_Status -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55m_Editing_Status">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55n_Right_Status -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55n_Right_Status">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55o_Religion -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55o_Religion">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55p_Technique -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55p_Technique">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55q_Level_of_Detail -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_55q_Level_of_Detail">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_5a_Historical_Event -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_5a_Historical_Event">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73a_3D_Reconstruction -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73a_3D_Reconstruction">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73b_3D_Reconstruction_Version -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73b_3D_Reconstruction_Version">
+        <rdfs:subClassOf rdf:resource="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73a_3D_Reconstruction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73c_3D_Reconstruction_Variation -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73c_3D_Reconstruction_Variation">
+        <rdfs:subClassOf rdf:resource="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_73a_3D_Reconstruction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7a_Research_Activity -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7a_Research_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7b_Membership -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7b_Membership">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7c_Documentation -->
+
+    <owl:Class rdf:about="https://www.ontscidoc3d.hs-mainz.de/ontology/osd_7c_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type">
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E99</skos:notation>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
